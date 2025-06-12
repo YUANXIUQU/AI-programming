@@ -1,0 +1,10 @@
+For A2:
+for dataset in csv format
+You need to download the dataset to a specific path in Google Drive and add an index row at the top of the dataset
+
+At this line of code:
+"path ='/content/drive/My Drive/Data.csv' " you can replace the file path with the directory where your data is stored
+
+For B1:
+you need to have Hugging Face account and generate an API Token, then request access to LLaMA-2-7b-chat-hf,finally authenticate with API Token. 
+Make sure running the program in T4 GPU.
